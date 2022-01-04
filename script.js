@@ -104,10 +104,7 @@ $(document).ready(function () {
       })
       .then(function (data) {
         console.log (data)
-        var uv = $("<p>").text("UV Index: ");
-        console.log(uv)
-        var btnTwo = $("<span>").addClass("btn btn-sm").text(data.value);
-      console.log(btnTwo)
+        
       })
    }
 })
